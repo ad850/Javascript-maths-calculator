@@ -1,0 +1,26 @@
+
+
+body {
+  background: fixed url(/image/wallpaper.jpg) center;
+}
+
+#container {
+  width: 96vw;
+  height: 97vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#box {
+  width: 700px;
+  height: 400px;
+  background-color:rgba(240, 248, 255, 0.959);
+  border-radius: 30px;
+  overflow-wrap: break-word;
+}
+#result {
+  font-size: 7em;
+  text-shadow: 5px 5px 10px black;
+}
